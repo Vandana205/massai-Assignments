@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flex</title>
+    <style>
+        h2{
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 400px;
+            font-size: 30px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+       .content{
+            display: flex;
+            width: 900px;
+            justify-content: space-evenly;
+            margin: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: rgb(244, 248, 247);
+            flex-wrap: wrap;
+            border-radius: 20px;
+
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color:white;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+        img{
+            margin-top: 10px;
+            height: 50px;
+            border-radius: 20px;
+        }
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        b{
+            color: rgb(109, 109, 185);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 100px;
+            font-size: 18px;
+        }
+        
+    </style>
+</head>
+<body>
+         <header>
+            <div>
+                <h2>Hiring Facts</h2>
+             </div>
+         </header>
+        <div class="container">
+            <div class="content">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjHRNECmrnIJRcFN0HUSAVX5xe5WTjlAqJqf-Sq6iNxsZqMza1" alt="">
+                    <p>Hiring Process</p>
+                    <b>  &#60;3days </b>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiXimmxkuXJwr_qciwsfxulPq_WRw9x2WdAIinQAqwmvmJKYzo" alt="">
+                   <p> Offer Acceptance</p>
+                   <b>90%</b>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTefZEbvxeluttoZv83iOwf8xpwG7nsmTzViQwK0h9jrc_oSykk" alt="">
+                    <p>Retention Rate</p>
+                    <b>93%</b>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLRFZoKfEFpjDXDz4b97Xs9zG3zfIkAt-sQ&s" alt="">
+                    <p>Hiring Partners</p>
+                    <b> 4000+</b>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHn7KmHqND3EzRGStwFQS--JhkdKowRhniDHMp0Poi2KJ68-F" alt="">
+                    <p>Year Round Availability</p>
+                     
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>

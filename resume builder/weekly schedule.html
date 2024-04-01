@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weeks chedule</title>
+</head>
+<style>
+    *{
+        font-family: brush Script mt,brush script std, cursive;
+        font-weight: bold;
+      
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 5px;  
+        width:50%;
+        justify-content: center;
+        margin: auto;
+     }
+    .box{
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-size: 18px;
+    }
+    .box:nth-child(odd){
+        background-color: rgb(248, 183, 194);
+    }
+    .box:nth-child(even){
+        background-color: rgb(248, 247, 154);
+    }
+    .box.box:nth-child(6n+1){
+        background-color: rgb(156, 245, 245);
+    }
+    
+
+    .note{
+        border-radius: 20px;  
+        width:930px;
+        height: 25px;
+        justify-content: center;
+        margin: auto;
+        margin-top:15px;
+        padding-left: 10px;
+        padding-top: 3px;
+        background-color: rgb(156, 245, 245);
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+</style>
+<body>
+    <h1>Weekly schedule</h1>
+     <div class="container">
+        <div ></div>
+        <div class="box">Monday</div>
+        <div class="box">Tuesday</div>
+        <div class="box">Wednesday</div>
+        <div class="box">Thursday</div>
+        <div class="box">Friday</div>
+        <div class="box">08:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">09:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">10:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">11:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">12:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">13:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">14:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">15:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">16:00</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+     </div>
+     <div class="note">Note:</div>
+</body>
+</html>

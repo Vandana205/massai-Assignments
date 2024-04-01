@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple layout</title>
+</head>
+     <style>
+        .container{
+            display: grid;
+            grid-template-columns:200px 200px 200px;
+            grid-template-rows:100px 100px 100px;
+            gap: 5px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .child{
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            font-size: 25px; 
+            color: aliceblue;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .child:nth-child(1) {
+            background-color: #f0853e; 
+        }
+        .child:nth-child(2) {
+            background-color: #506ef1; 
+        }
+        .child:nth-child(3) {
+            background-color: #e0ca03; 
+        }
+        .child:nth-child(4) {
+            background-color: #d84efa; 
+        }
+        .child:nth-child(5) {
+            background-color: #35f044; 
+        }
+        .child:nth-child(6) {
+            background-color: #1197da; 
+        }
+        .child:nth-child(7) {
+            background-color: #f87123; 
+        }
+        .child:nth-child(8) {
+            background-color: #54b8fa; 
+        }
+        .child:nth-child(9) {
+            background-color: #d64a1f; 
+        }
+     </style>
+<body>
+   <div class="container">
+       <div class="child">2.</div>
+       <div class="child">3.</div>
+       <div class="child">4.</div>
+       <div class="child">5.</div>
+       <div class="child">6.</div>
+       <div class="child">1.</div>
+       <div class="child">7.</div>
+       <div class="child">8.</div>
+       <div class="child">9.</div>
+       
+   </div> 
+</body>
+</html>
